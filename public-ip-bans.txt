@@ -1,0 +1,39 @@
+# "NPAVS" - Non pre-approved vulerability scan
+# "CNEN" - (People's Republic of) China government-controlled exit node
+# "SOFT" - Soft ban: requests can only fit these criteria: GET / OR GET /* OR GET /i/* OR GET /s/*
+# "HARD" - Hard ban: no requests are passed through
+
+$ 40.84.210.175 - HARD NPAVS (wlwmanifest.xml)
+$ 136.144.35.205 - HARD NPAVS (wlwmanifest.xml)
+$ 40.121.135.70 - HARD NPAVS (wlwmanifest)
+$ 159.242.234.61 - HARD NPAVS (wlwmanifest)
+$ 74.201.28.68 - HARD NPAVS (./env)
+$ 181.214.99.176 - HARD NPAVS (/login.php)
+$ 193.56.252.231 - HARD NPAVS (multiple, see contact info)
+$ 156.245.153.202 - HARD NPAVS (/.env & POST /)
+
+#% subnet identifier eg: 192.168.0.1/24 - note
+
+^ AS4134 - SOFT CNEN (CHINANET-BACKBONE)
+^ AS45090 - HARD CNEN (Shenzhen Tencent Computer Systems Company Limited)
+^ AS131574 - SOFT CNEN (Beijing Cloud Mind Technologies Co., Ltd)
+^ AS134169	- SOFT CNEN (CERNEWTECH Beijing co.,LTD)
+^ AS134420	- SOFT CNEN (Chongqing Telecom)
+^ AS134756	- SOFT CNEN (CHINANET Nanjing Jishan IDC network)
+^ AS136958	- SOFT CNEN (China Unicom Guangdong IP network)
+^ AS140979	- SOFT CNEN (China Unicom Shanghai FuTe IDC network)
+^ AS23724	- SOFT CNEN (IDC, China Telecommunications Corporation)
+^ AS24400	- SOFT CNEN (Shanghai Mobile Communications Co.,Ltd.)
+^ AS38283	- SOFT CNEN (CHINANET SiChuan Telecom Internet Data Center)
+^ AS4811	- SOFT CNEN (China Telecom Group)
+^ AS4837	- SOFT CNEN (CHINA UNICOM China169 Backbone)
+^ AS56040	- SOFT CNEN (China Mobile communications corporation)
+^ AS56046	- SOFT CNEN (China Mobile communications corporation)
+^ AS58466	- SOFT CNEN (CHINANET Guangdong province network)
+^ AS58542	- SOFT CNEN (Tianjij,300000)
+^ AS9808	- SOFT CNEN (China Mobile Communications Group Co., Ltd.)
+
+# Contant information (most preferred to least preferred) prefered
+# Owner on Discord: ja moment#1397
+# Contact online: https://site.elliottdev.com/contact
+# Discord: https://discord.gg/j6UkSZpPuf
